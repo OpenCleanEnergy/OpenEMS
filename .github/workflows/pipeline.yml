@@ -23,7 +23,7 @@ jobs:
       keycloak-created: ${{ steps.release.outputs.keycloak--release_created }}
     steps:
       - name: 🗝 Get app token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         id: app-token
         with:
           app-id: ${{ vars.OCE_APP_ID }}
@@ -202,7 +202,7 @@ jobs:
       )
     steps:
       - name: 🗝 Get app token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         id: app-token
         with:
           app-id: ${{ vars.OCE_APP_ID }}
@@ -227,7 +227,7 @@ jobs:
     if: needs.release-please.outputs.app-created
     steps:
       - name: 🗝 Get app token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         id: app-token
         with:
           app-id: ${{ vars.OCE_APP_ID }}
