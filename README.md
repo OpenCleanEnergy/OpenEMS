@@ -1,12 +1,9 @@
 # EMMA
 
-<p align="center">
-  <a href="https://openems.opencleanenergy.org/app">
-    <img
-      src="https://raw.githubusercontent.com/OpenCleanEnergy/emma/main/app/assets/web-app/web-app-badge.webp"
-      alt="Web App Badge" >
-  </a>
-</p>
+> [!IMPORTANT]
+> I ([@just-seba](https://github.com/just-seba)) started working for [clever-PV](https://clever-pv.com).  
+> [clever-PV](https://clever-pv.com) is an online-based home energy management system which inspired me to start this project.  
+> That's why this project is now archived.
 
 ## Contributing
 
